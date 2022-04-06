@@ -1,0 +1,14 @@
+MODULO USER
+/user
+
+- adicionar							POST 	/users		- requisição com body JSON  -
+- editar user parcialmente 			PUT		/users		- requisição com body JSON  -
+- listar 							GET 	/users		- 
+- buscar por id 					GET 	/users/{id}	- 
+- excluir por id					DELETE	/users/{id}	- sem body					-	
+
+"2021 03 29 21 14 51 - Spring-Api - REST" - min 000400
+- implementação classe repository (fake, por hora) and service
+
+"2021 03 29 21 14 51 - Spring-Api - REST" - min 003732
+- implementação metodos GET/listar e POST/adicionar no controller - falta rodar/testar app
